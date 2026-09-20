@@ -12,7 +12,7 @@ A lightweight, repository-level **Codex Skill** for learning from documents you 
 
 **Community project / unofficial.** Not affiliated with or endorsed by OpenAI.
 
-[Try it in 5 minutes](#installation) · [Full example](examples/generic-demo.md) · [中文故事示例](examples/values-learning-demo.md)
+[Try it in 5 minutes](#installation) · [Release & 中文介绍](https://github.com/autoloading8822/concept-to-story-skill/releases/latest) · [Full example](examples/generic-demo.md) · [中文故事示例](examples/values-learning-demo.md)
 
 ## What it does
 
@@ -72,6 +72,8 @@ cd concept-to-story-skill
 The skill is already in `.agents/skills/concept-to-story/`. Codex discovers repository skills there. Start a task in this project; if the skill does not appear, restart Codex and confirm the project folder. You can invoke it explicitly as `$concept-to-story` or use a matching learning request. See the [official skills documentation](https://learn.chatgpt.com/docs/build-skills) for discovery and invocation behavior (checked 2026-09-20).
 
 **Use in an existing project:** copy only `.agents/skills/concept-to-story/` into that project's `.agents/skills/`. Preserve its other skills; if `concept-to-story` already exists, compare before replacing it. No personal/global installation is required.
+
+**Download without Git:** get the `concept-to-story-v*.zip` asset from the [latest release](https://github.com/autoloading8822/concept-to-story-skill/releases/latest), extract it, and copy its `concept-to-story` folder into your project's `.agents/skills/`. The result must be `.agents/skills/concept-to-story/SKILL.md`. The archive includes the skill's references, template, MIT license, and installation notes; source books and private study files are excluded. `SHA256SUMS.txt` provides the archive's SHA-256 checksum.
 
 ## How to use with Codex
 
