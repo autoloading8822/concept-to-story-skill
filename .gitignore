@@ -1,0 +1,27 @@
+# Source documents and private study output stay local.
+*.[pP][dD][fF]
+*.epub
+*.mobi
+*.docx
+/private/
+/input/
+/inputs/
+/output/
+/outputs/
+/notes/
+/tmp/
+/test-output/
+/.local/
+
+# Local credentials and runtime artifacts.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
